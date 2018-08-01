@@ -6,25 +6,34 @@
     <groupId>com.github.malinghan</groupId>
     <artifactId>springboot-learning</artifactId>
     <version>0.1.0</version>
-
+    <!--spring-boot启动所需要的jar包-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.3.RELEASE</version>
     </parent>
 
+    <!--pom的属性-->
+    <properties>
+        <java.version>1.8</java.version>
+        <junit.version>3.8.1</junit.version>
+    </properties>
+
+    <!--spring-boot-web启动所需要的jar包-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+       <!--junit.version-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
-
+   <!--打包spring boot应用-->
     <build>
         <plugins>
             <plugin>
