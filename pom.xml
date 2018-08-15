@@ -16,7 +16,7 @@
     <!--pom的属性-->
     <properties>
         <java.version>1.8</java.version>
-        <junit.version>3.8.1</junit.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <!--spring-boot-web启动所需要的jar包-->
@@ -25,15 +25,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-       <!--junit.version-->
+        <!--junit.version-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
+        </dependency>
+        <!--spring boot test-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
-   <!--打包spring boot应用-->
+    <!--打包spring boot应用-->
     <build>
         <plugins>
             <plugin>
