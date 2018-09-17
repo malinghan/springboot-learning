@@ -23,9 +23,10 @@
   <insert id="insert" parameterType="com.winter.model.User" >
     insert into t_user (user_id, user_name, password, 
       phone)
-    values (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
-      #{phone,jdbcType=VARCHAR})
+    values (#{userId}, #{userName}, #{password},
+      #{phone})
   </insert>
+
   <insert id="insertSelective" parameterType="com.winter.model.User" >
     insert into t_user
     <trim prefix="(" suffix=")" suffixOverrides="," >
