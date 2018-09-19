@@ -2,6 +2,7 @@ package com.mlh.dao;
 
 import com.mlh.model.UserPO;
 import org.springframework.stereotype.Repository;
+
 import java.util.List;
 
 /**
@@ -11,7 +12,6 @@ import java.util.List;
  */
 @Repository
 public interface UserDAO {
-
     int insert(UserPO record);
 
     List<UserPO> selectUsers();

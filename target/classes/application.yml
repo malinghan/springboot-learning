@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+    application:
+      name: SpringBoot
     datasource:
         name: test
         type: com.alibaba.druid.pool.DruidDataSource
@@ -9,7 +11,6 @@ spring:
         # 使用druid数据源
         druid:
           driver-class-name: com.mysql.jdbc.Driver
-          filters: stat
           url: jdbc:mysql://127.0.0.1:3306/test
           username: root
           password: asdf1234
@@ -25,16 +26,46 @@ spring:
           testOnReturn: false
           poolPreparedStatements: true
           maxOpenPreparedStatements: 20
+          filters: stat
 
 
-## 该配置节点为独立的节点，有很多同学容易将这个配置放在spring的节点下，导致配置无法被识别
+#mybatis:
+#  mapperLocations: classpath*:com/yany/mapper/*.xml
+#  typeAliasesPackage: com.mlh.model
+
+#logging:
+#  level:
+#    root: debug
+#    org.springframework.web: info
+
 mybatis:
   mapper-locations: classpath:mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
-  type-aliases-package: com.mlh.model  # 注意：对应实体类的路径
+  type-aliases-package: com.mlh.model
+  type-handlers-package: org.mybatis.example
+  configuration:
+    cache-enabled: true # 注意：对应实体类的路径
+    useColumnLabel: true
+    lazyLoadingEnabled: true
+    multipleResultSetsEnabled: true
+    useGeneratedKeys: false
+    autoMappingBehavior: PARTIAL
+    autoMappingUnknownColumnBehavior: WARNING
+    defaultExecutorType: simple
+    defaultStatementTimeout: 25
+    defaultFetchSize: 100
+    safeRowBoundsEnabled: false
+    mapUnderscoreToCamelCase: false
+    localCacheScope: session
+    jdbcTypeForNull: OTHER
+    lazyLoadTriggerMethods: equals,clone,hashCode,toString
+    default-enum-type-handler: org.apache.ibatis.type.IntegerTypeHandler
+    return-instance-for-empty-row: true
+
 
 #pagehelper分页插件
 pagehelper:
     helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
+#    reasonable: true
+#    supportMethodsArguments: true
     params: count=countSql
+
