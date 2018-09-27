@@ -11,9 +11,9 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
 
-        <!--<plugin type="${mapper.plugin}">-->
-            <!--<property name="mappers" value="${mapper.Mapper}"/>-->
-        <!--</plugin>-->
+        <plugin type="${mapper.plugin}">
+            <property name="mappers" value="${mapper.Mapper}"/>
+        </plugin>
 
         <commentGenerator>
             <property name="suppressDate" value="true"/>

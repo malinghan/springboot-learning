@@ -7,7 +7,9 @@
 <generatorConfiguration>
     <properties resource="generator/mybatis_generator_config.properties"/>
     <classPathEntry  location="${mapper.driverLocation}"/>
+
     <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
 
