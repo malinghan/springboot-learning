@@ -1,0 +1,28 @@
+<dataSource name="MySQL - saas@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="saas">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mysql" />
+    <schema id="4" name="mytest" />
+    <schema id="5" name="performance_schema" />
+    <schema id="6" name="sys" />
+    <schema id="7" name="test" />
+    <schema id="8" name="mytestdb" />
+    <schema id="9" name="mytestdb2" />
+    <table id="10" parent="1" name="user" />
+    <column id="11" parent="10" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="12" parent="10" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="13" parent="10" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

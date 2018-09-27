@@ -1,0 +1,22 @@
+<dataSource name="MySQL - mytestdb@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="mytestdb">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mysql" />
+    <schema id="4" name="mytest" />
+    <schema id="5" name="mytestdb2" />
+    <schema id="6" name="performance_schema" />
+    <schema id="7" name="saas" />
+    <schema id="8" name="sys" />
+    <schema id="9" name="test" />
+    <table id="10" parent="1" name="shop" />
+    <column id="11" parent="10" name="id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="12" parent="10" name="shop_name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+  </database-model>
+</dataSource>

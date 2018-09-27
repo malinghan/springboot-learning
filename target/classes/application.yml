@@ -1,46 +1,48 @@
+jdbc:
+   driverClassName: com.mysql.jdbc.Driver
+   url: jdbc:mysql://127.0.0.1:3306/mytestdb?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8
+   username: root
+   password: asdf1234
+
+jdbc2:
+   driverClassName: com.mysql.jdbc.Driver
+   url: jdbc:mysql://127.0.0.1:3306/mytestdb2?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8
+   username: root
+   password: asdf1234
+
+
 server:
-  port: 8080
+   port: 8080
 
 spring:
     application:
       name: SpringBoot
-    datasource:
-        name: test
-        type: com.alibaba.druid.pool.DruidDataSource
-
-        # 使用druid数据源
-        druid:
-          driver-class-name: com.mysql.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/test
-          username: root
-          password: asdf1234
-          maxActive: 20
-          initialSize: 1
-          maxWait: 60000
-          minIdle: 1
-          timeBetweenEvictionRunsMillis: 60000
-          minEvictableIdleTimeMillis: 300000
-          validationQuery: select 'x'
-          testWhileIdle: true
-          testOnBorrow: false
-          testOnReturn: false
-          poolPreparedStatements: true
-          maxOpenPreparedStatements: 20
-          filters: stat
-
-
-#mybatis:
-#  mapperLocations: classpath*:com/yany/mapper/*.xml
-#  typeAliasesPackage: com.mlh.model
-
-#logging:
-#  level:
-#    root: debug
-#    org.springframework.web: info
+#    datasource:
+#        name: test
+#        type: com.alibaba.druid.pool.DruidDataSource
+#         使用druid数据源
+#        druid:
+#          driver-class-name: com.mysql.jdbc.Driver
+#          url: jdbc:mysql://127.0.0.1:3306/test
+#          username: root
+#          password: asdf1234
+#          maxActive: 20
+#          initialSize: 1
+#          maxWait: 60000
+#          minIdle: 1
+#          timeBetweenEvictionRunsMillis: 60000
+#          minEvictableIdleTimeMillis: 300000
+#          validationQuery: select 'x'
+#          testWhileIdle: true
+#          testOnBorrow: false
+#          testOnReturn: false
+#          poolPreparedStatements: true
+#          maxOpenPreparedStatements: 20
+#          filters: stat
 
 mybatis:
-  mapper-locations: classpath:mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
-  type-aliases-package: com.mlh.model
+  mapperLocations: classpath:mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  typeAliasesPackage: com.mlh.model # 实体放置目录
   type-handlers-package: org.mybatis.example
   configuration:
     cache-enabled: true # 注意：对应实体类的路径
@@ -61,11 +63,16 @@ mybatis:
     default-enum-type-handler: org.apache.ibatis.type.IntegerTypeHandler
     return-instance-for-empty-row: true
 
+#rabbitmq:
+#    username: aaa
+#    password: bbb
+#    host: 192.168.0.133
+#    port: 5672
 
-#pagehelper分页插件
 pagehelper:
     helperDialect: mysql
-#    reasonable: true
-#    supportMethodsArguments: true
     params: count=countSql
+
+
+
 

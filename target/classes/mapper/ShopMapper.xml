@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mlh.mapper.ShopMapper">
+  <resultMap id="BaseResultMap" type="com.mlh.model.Shop">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="shop_name" jdbcType="VARCHAR" property="shopName" />
+  </resultMap>
+  <insert id="insert" parameterType="com.mlh.model.Shop">
+    insert into shop (id, shop_name)
+    values (#{id,jdbcType=INTEGER}, #{shopName,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, shop_name
+    from shop
+  </select>
+  <resultMap id="BaseResultMap" type="com.mlh.model.Shop">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="shop_name" jdbcType="VARCHAR" property="shopName" />
+  </resultMap>
+  <insert id="insert" parameterType="com.mlh.model.Shop">
+    insert into shop (id, shop_name)
+    values (#{id,jdbcType=INTEGER}, #{shopName,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, shop_name
+    from shop
+  </select>
+  <resultMap id="BaseResultMap" type="com.mlh.model.Shop">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="shop_name" jdbcType="VARCHAR" property="shopName" />
+  </resultMap>
+  <insert id="insert" parameterType="com.mlh.model.Shop">
+    insert into shop (id, shop_name)
+    values (#{id,jdbcType=INTEGER}, #{shopName,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, shop_name
+    from shop
+  </select>
+  <resultMap id="BaseResultMap" type="com.mlh.model.Shop">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="shop_name" jdbcType="VARCHAR" property="shopName" />
+  </resultMap>
+  <insert id="insert" parameterType="com.mlh.model.Shop">
+    insert into shop (id, shop_name)
+    values (#{id,jdbcType=INTEGER}, #{shopName,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, shop_name
+    from shop
+  </select>
+</mapper>
