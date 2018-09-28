@@ -9,7 +9,6 @@
     insert into shop (id, shop_name)
     values (#{id,jdbcType=INTEGER}, #{shopName,jdbcType=VARCHAR})
   </insert>
-
   <select id="selectAll" resultMap="BaseResultMap">
     select id, shop_name
     from shop

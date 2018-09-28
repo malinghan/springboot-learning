@@ -13,10 +13,15 @@
     <schema id="9" name="test" />
     <table id="10" parent="1" name="shop" />
     <column id="11" parent="10" name="id">
+      <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
     <column id="12" parent="10" name="shop_name">
       <data-type>varchar(100)|0</data-type>
     </column>
+    <key id="13" parent="10" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
   </database-model>
 </dataSource>
