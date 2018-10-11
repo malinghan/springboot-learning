@@ -20,6 +20,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 在某些专门的上下文（如死锁恢复）中这会很有用。
  * @param <T>
  */
+
 public class ObjectCache<T> {
 
     public interface ObjectFactory<T> {
