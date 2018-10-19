@@ -38,7 +38,7 @@
     </Appenders>
     <Loggers>
         <AsyncLogger name="org.springframework.*" level="INFO"/>
-        <AsyncLogger name="com.rick" level="INFO" additivity="false">
+        <AsyncLogger name="com.mlh" level="INFO" additivity="false">
             <AppenderRef ref="infoLog" />
             <AppenderRef ref="errorLog" />
             <AppenderRef ref="Console" />

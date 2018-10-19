@@ -1,6 +1,9 @@
 package com.mlh.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInterceptor;
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
@@ -24,6 +27,7 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * @author: linghan.ma
@@ -181,6 +185,18 @@ public class DataSourceConfig {
         fb.setDataSource(this.dataSource(masterDataSource, slaveDataSource));
         fb.setTypeAliasesPackage(env.getProperty("mybatis.type-aliases-package"));
         fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapper-locations")));
+
+        //分页插件设置
+        PageInterceptor pageHelper = new PageInterceptor();
+        Properties properties = new Properties();
+        properties.setProperty("reasonable", "true");
+        properties.setProperty("supportMethodsArguments", "true");
+        properties.setProperty("returnPageInfo", "check");
+        properties.setProperty("params", "count=countSql");
+        pageHelper.setProperties(properties);
+        //添加分页插件
+        fb.setPlugins(new Interceptor[]{pageHelper});
+
         return fb.getObject();
     }
 

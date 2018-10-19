@@ -9,11 +9,16 @@ spring:
         name: mysql_test
         #-------------- start ----------------# (1)
         master:
-          #基本属性--注意，这里的为【jdbcurl】-- 默认使用HikariPool作为数据库连接池
-          jdbcUrl: jdbc:mysql://localhost:3306/mytestdb?useUnicode=true&characterEncoding=utf8
+           #基本属性--注意，这里的为【jdbcurl】-- 默认使用HikariPool作为数据库连接池
+          jdbcUrl: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf8
           username: root
           password: asdf1234
           driver-class-name: com.mysql.jdbc.Driver
+          #基本属性--注意，这里的为【jdbcurl】-- 默认使用HikariPool作为数据库连接池
+#          jdbcUrl: jdbc:mysql://localhost:3306/mytestdb?useUnicode=true&characterEncoding=utf8
+#          username: root
+#          password: asdf1234
+#          driver-class-name: com.mysql.jdbc.Driver
         slave:
           #基本属性--注意，这里为 【url】-- 使用 druid 作为数据库连接池
           url: jdbc:mysql://localhost:3306/mytestdb2?useUnicode=true&characterEncoding=utf8
