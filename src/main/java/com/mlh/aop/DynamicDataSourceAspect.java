@@ -44,5 +44,4 @@ public class DynamicDataSourceAspect {
         logger.debug("清除数据源 " + targetDataSource.name() + " !",joinPoint.getSignature());
         DynamicDataSourceContextHolder.clearDataSoureType();
     }
-
 }

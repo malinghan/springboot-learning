@@ -1,9 +1,10 @@
 package com.mlh.dao;
 
 import java.util.List;
+
+import com.mlh.Annotation.TargetDataSource;
 import com.mlh.model.User;
-import org.apache.ibatis.type.JdbcType;
-import org.apache.ibatis.type.MappedJdbcTypes;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,13 +13,13 @@ import org.springframework.stereotype.Repository;
  * @description:
  */
 @Repository
+//@Mapper
 public interface UserDao {
 
      void insert(User user);
 
-
+     @TargetDataSource(name = "master")
      User findUserById (int userId);
 
      List<User> findAllUsers();
-
 }

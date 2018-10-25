@@ -149,26 +149,25 @@ public class DataSourceConfig {
         dataSource.afterPropertiesSet();
 //        String read = env.getProperty("spring.datasource.read");
 //        dataSource.setMethodType(DatabaseType.slave, read);
-//
+
 //        String write = env.getProperty("spring.datasource.write");
 //        dataSource.setMethodType(DatabaseType.master, write);
 
         return dataSource;
     }
 
-
-//    @Bean
-//    public MapperScannerConfigurer mapperScannerConfigurer() {
-//        MapperScannerConfigurer scannerConfigurer = new MapperScannerConfigurer();
-//        scannerConfigurer.setBasePackage("com.mlh.dao");
-//        Properties props = new Properties();
-//        props.setProperty("mappers", "tk.mybatis.mapper.common.Mapper");
-//        props.setProperty("IDENTITY", "MYSQL");
-//        props.setProperty("notEmpty", "true");
-//        scannerConfigurer.setProperties(props);
-//        return scannerConfigurer;
-//    }
-
+    @Bean
+    public PageInterceptor pageHelper(){
+        //分页插件设置
+        PageInterceptor pageHelper = new PageInterceptor();
+        Properties properties = new Properties();
+        properties.setProperty("reasonable", "true");
+        properties.setProperty("supportMethodsArguments", "true");
+        properties.setProperty("returnPageInfo", "check");
+        properties.setProperty("params", "count=countSql");
+        pageHelper.setProperties(properties);
+        return pageHelper;
+    }
 
 
     /**
@@ -186,17 +185,8 @@ public class DataSourceConfig {
         fb.setTypeAliasesPackage(env.getProperty("mybatis.type-aliases-package"));
         fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapper-locations")));
 
-        //分页插件设置
-        PageInterceptor pageHelper = new PageInterceptor();
-        Properties properties = new Properties();
-        properties.setProperty("reasonable", "true");
-        properties.setProperty("supportMethodsArguments", "true");
-        properties.setProperty("returnPageInfo", "check");
-        properties.setProperty("params", "count=countSql");
-        pageHelper.setProperties(properties);
         //添加分页插件
-        fb.setPlugins(new Interceptor[]{pageHelper});
-
+//        fb.setPlugins(new Interceptor[]{pageHelper()});
         return fb.getObject();
     }
 

@@ -9,7 +9,6 @@ public enum DatabaseType {
 
     master("master"), slave("slave");
 
-
     DatabaseType(String name) {
         this.name = name;
     }

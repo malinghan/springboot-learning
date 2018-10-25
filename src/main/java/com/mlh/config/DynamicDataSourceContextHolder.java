@@ -38,6 +38,4 @@ public class DynamicDataSourceContextHolder {
         contextHolder.remove();
     }
 
-
-
 }

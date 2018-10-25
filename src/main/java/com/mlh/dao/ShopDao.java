@@ -2,6 +2,7 @@ package com.mlh.dao;
 
 import com.mlh.Annotation.TargetDataSource;
 import com.mlh.model.Shop;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @DATE: 2018/10/11
  * @description:
  */
+@Repository
 public interface ShopDao {
 
     int deleteByPrimaryKey(Integer id);
