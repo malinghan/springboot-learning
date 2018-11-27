@@ -58,20 +58,18 @@ public class MybatisCacheTest {
         return  builder.build(configuration);
 }
 
-    @Test
+//    @Test
     public void testCache1() throws  Exception{
-
-//      SqlSessionFactory sqlSessionFactory = buildSqlSessionFactory();
-
+//       SqlSessionFactory sqlSessionFactory = buildSqlSessionFactory();
         SqlSessionFactoryBean fb = new SqlSessionFactoryBean();
         fb.setDataSource(new DynamicDataSource());
         fb.setTypeAliasesPackage(env.getProperty("mybatis.type-aliases-package"));
-        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapper-locations")));
+        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.type-aliases-package")));
 
         SqlSessionFactory sqlSessionFactory =  fb.getObject();
 
        SqlSession sqlSession = sqlSessionFactory.openSession();
-
+//
         String statement = "com.mlh.dao.useDao.findUserById";
         User user = sqlSession.selectOne(statement,2);
         System.out.println(user);
@@ -89,7 +87,6 @@ public class MybatisCacheTest {
         //session.clearCache();
         user = sqlSession.selectOne(statement, 2);
         System.out.println(user);
-
     }
 
         @Test
