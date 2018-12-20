@@ -56,31 +56,30 @@ public class HttpController {
     }
 
     @RequestMapping(value = "/download3", method = RequestMethod.GET)
-    public void downLoadUrl3(HttpServletRequest request,HttpServletResponse response) throws Exception {
-        String fileUrl = "https://files.xinrenxinshi.com/site/download?ptoken=fe39fe73e20294875ef383184a6ef16e7e246a4b5ea7bebfaa33cc14a8bcc680.pdf";
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    public void downLoadUrl3(HttpServletRequest request,
+                             HttpServletResponse response,
+                             String fileUrl,
+                             String fileName){
         HttpURLConnection httpURLConnection = null;
-        String message = "";
-        // TODO 正常 fileUrl 是这样的  http://file.xinrenxinshi.com/asfsf.doc，这边判断是否有后缀
-        String suffix = fileUrl.substring(fileUrl.lastIndexOf(".") + 1);
+        String suffix = fileUrl.substring(fileUrl.lastIndexOf("."));
         try {
-            java.net.URL url = new URL(fileUrl);
+            URL url = new URL(fileUrl);
             httpURLConnection = (HttpURLConnection)url.openConnection();
             httpURLConnection.setConnectTimeout(5000);
             httpURLConnection.setReadTimeout(30000);
             httpURLConnection.getContent();
             InputStream inputStream = httpURLConnection.getInputStream();
-            String suffix2 = httpURLConnection.getContentType(); // 应该是这个判断文件流的，百度下看看
+            String suffix2 = httpURLConnection.getContentType(); // 应该是这个判断文件流的，万一没有后缀名
             if (StringUtils.isEmpty(suffix)) {
-                suffix = suffix2;
+                suffix = "."+suffix2;
             }
-            setFileDownloadHeader(request.getHeader("User-Agent"), response,"陈伟"+"."+suffix);
+            setFileDownloadHeader(request.getHeader("User-Agent"), response,fileName+suffix);
             OutputStream outputStream =response.getOutputStream();
             IOUtils.copy(inputStream, outputStream);
             outputStream.flush();
             inputStream.close();
         }catch (Exception e){
-            message = "文件下载失败，失败原因:"+e.getMessage()+"文件下载路径："+fileUrl;
+            LOGGER.info("文件下载失败，失败原因:"+e.getMessage()+"文件url："+fileUrl);
         }
     }
 

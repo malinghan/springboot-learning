@@ -1,4 +1,4 @@
-package dao;
+package com.mlh.dao;
 
 import com.mlh.App;
 import com.mlh.config.DataSourceConfig;
