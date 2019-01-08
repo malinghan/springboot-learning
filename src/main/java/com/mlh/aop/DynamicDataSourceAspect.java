@@ -20,11 +20,6 @@ import org.springframework.stereotype.Component;
  * @EnableAspectJAutoProxy： 表示开启AOP代理自动配置，如果配@EnableAspectJAutoProxy表示使用cglib进行代理对象的生成；设置@EnableAspectJAutoProxy(exposeProxy=true)表示通过aop框架暴露该代理对象，aopContext能够访问.
  * <p>
  * 从@EnableAspectJAutoProxy的定义可以看得出，它引入AspectJAutoProxyRegister.class对象，该对象是基于注解@EnableAspectJAutoProxy注册一个AnnotationAwareAspectJAutoProxyCreator，该对象通过调用AopConfigUtils.registerAspectJAnnotationAutoProxyCreatorIfNecessary(registry);注册一个aop代理对象生成器。
- * ---------------------
- * 作者：阿里-橙鹰-潘民兰
- * 来源：CSDN
- * 原文：https://blog.csdn.net/pml18710973036/article/details/61654277
- * 版权声明：本文为博主原创文章，转载请附上博文链接！
  */
 @Component
 @Order(-1) // 保证在 @Transactional之前执行

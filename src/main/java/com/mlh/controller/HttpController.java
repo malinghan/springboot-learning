@@ -43,7 +43,7 @@ public class HttpController {
 
     @RequestMapping(value = "/download", method = RequestMethod.GET)
     public void downLoadUrl(HttpServletRequest request) throws Exception {
-        String url = "https://files.xinrenxinshi.com/site/download?ptoken=fe39fe73e20294875ef383184a6ef16e7e246a4b5ea7bebfaa33cc14a8bcc680.pdf";
+        String url = "https://www.baidu.com/a.pdf";
         HttpGet httpGet = new HttpGet(url);
         HttpClient httpclient = createHttpClient(20,20,5000,5000,3000);
         HttpResponse response1 = httpclient.execute(httpGet);
