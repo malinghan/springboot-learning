@@ -116,11 +116,11 @@ public class HttpController {
 
     @RequestMapping(value = "/download2", method = RequestMethod.GET)
     public void downLoadUrl2(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        String fileUrl = "https://files.xinrenxinshi.com/site/download?ptoken=fe39fe73e20294875ef383184a6ef16e7e246a4b5ea7bebfaa33cc14a8bcc680.pdf";
+        String fileUrl = "https://www.baidu.com/aaa.pdf";
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         HttpURLConnection httpURLConnection = null;
         String message = "";
-        // TODO 正常 fileUrl 是这样的  http://file.xinrenxinshi.com/asfsf.doc，这边判断是否有后缀
+        // TODO 正常 fileUrl 是这样的  https://www.baidu.com/aaa.pdf，这边判断是否有后缀
         String suffix = fileUrl.substring(fileUrl.lastIndexOf(".") + 1);
         try {
             java.net.URL url = new URL(fileUrl);
