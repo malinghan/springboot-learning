@@ -1,27 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="MySQL - mytestdb2@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
-    <schema id="1" name="mytestdb2">
-      <visible>1</visible>
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+    <root id="1"/>
+    <schema id="2" parent="1" name="mytestdb2">
+      <Visible>1</Visible>
     </schema>
-    <schema id="2" name="information_schema" />
-    <schema id="3" name="mysql" />
-    <schema id="4" name="mytest" />
-    <schema id="5" name="mytestdb" />
-    <schema id="6" name="performance_schema" />
-    <schema id="7" name="saas" />
-    <schema id="8" name="sys" />
-    <schema id="9" name="test" />
-    <table id="10" parent="1" name="shop" />
-    <column id="11" parent="10" name="id">
-      <mandatory>1</mandatory>
-      <data-type>int(11)|0</data-type>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="mytest"/>
+    <schema id="6" parent="1" name="mytestdb"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="saas"/>
+    <schema id="9" parent="1" name="sys"/>
+    <schema id="10" parent="1" name="test"/>
+    <table id="11" parent="2" name="shop"/>
+    <column id="12" parent="11" name="id">
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="12" parent="10" name="shop_name">
-      <data-type>varchar(100)|0</data-type>
+    <column id="13" parent="11" name="shop_name">
+      <DataType>varchar(100)|0s</DataType>
     </column>
-    <key id="13" parent="10" name="PRIMARY">
-      <columns>id</columns>
-      <primary>1</primary>
+    <key id="14" parent="11" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
     </key>
   </database-model>
 </dataSource>

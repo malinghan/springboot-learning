@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f454c4f-70b3-4c55-a699-3d39821cc853" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/ShortUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4db1c8c2-2972-4af5-8612-0eab3b77b6cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4db1c8c2-2972-4af5-8612-0eab3b77b6cf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78159219-417f-4e03-8310-d6c0f3f094cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78159219-417f-4e03-8310-d6c0f3f094cf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f60865e0-0a7a-48d6-96f9-1d47ce99581e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f60865e0-0a7a-48d6-96f9-1d47ce99581e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/aop/DynamicDataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/aop/DynamicDataSourceAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/controller/HttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/controller/HttpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/MybatisCacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/UserDaoTest.class" beforeDir="false" />
     </list>
     <ignored path="springboot-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,23 +42,29 @@
     <session id="2044703207">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
           <entry key="iml" value="1" />
-          <entry key="java" value="27" />
-          <entry key="md" value="8" />
+          <entry key="java" value="32" />
+          <entry key="md" value="9" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
           <entry key="yml" value="3" />
@@ -64,8 +74,8 @@
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="27" />
-          <entry key="Markdown" value="8" />
+          <entry key="JAVA" value="32" />
+          <entry key="Markdown" value="9" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="3" />
@@ -73,14 +83,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="363" />
+          <entry key="java" value="373" />
           <entry key="md" value="71" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="363" />
+          <entry key="JAVA" value="373" />
           <entry key="Markdown" value="71" />
           <entry key="XML" value="2" />
         </counts>
@@ -99,92 +109,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="21" column="246" selection-start-line="21" selection-start-column="246" selection-end-line="21" selection-end-column="246" />
+            <state relative-caret-position="255">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/controller/HttpController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="156" column="43" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/ShortUrl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding>
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#253#269#0" expanded="true" />
-                <element signature="e#341#357#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-249">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+              <folding>
+                <element signature="e#5937#5938#0" expanded="true" />
+                <element signature="e#5967#5968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/FunctionalInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -213,8 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
-        <option value="dbtable:/32d327a3/78159219-417f-4e03-8310-d6c0f3f094cf/mytestdb.shop" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/controller/ShopController.java" />
         <option value="dbtable:/32d327a3/4db1c8c2-2972-4af5-8612-0eab3b77b6cf/mytestdb2.shop" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/datasource/DatabaseContextHolder.java" />
@@ -264,6 +246,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" />
       </list>
     </option>
   </component>
@@ -288,7 +272,7 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -370,6 +354,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-learning" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot-learning" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,28 +415,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mlh" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mlh" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="shorturl" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-learning" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springboot-learning" type="616d4139:PackageViewModuleNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,7 +429,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="typeHa&#9;PSI&#9;JAVA://org.apache.ibatis.type.TypeHandler&#10;MapperProxy&#9;FILE&#9;jar:///Users/qjyd/.m2/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java&#10;SqlSession&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession&#10;StatementHandler&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.StatementHandler&#10;CachingEx&#9;PSI&#9;JAVA://org.apache.ibatis.executor.CachingExecutor&#10;PerpetualCache&#9;PSI&#9;JAVA://org.apache.ibatis.cache.impl.PerpetualCache&#10;objectFactoryElement&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLConfigBuilder#objectFactoryElement&#10;ObjecFa&#9;FILE&#9;jar:///Users/qjyd/.m2/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/internal/ObjectFactory.class&#10;MapperFactoryBean&#9;PSI&#9;JAVA://org.mybatis.spring.mapper.MapperFactoryBean&#10;CachingConnectionFactory&#9;PSI&#9;JAVA://org.springframework.amqp.rabbit.connection.CachingConnectionFactory&#10;rabbit&#9;FILE&#9;file:///Users/qjyd/IdeaProjects/springboot-learning/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml&#10;Exchanger&#9;PSI&#9;JAVA://java.util.concurrent.Exchanger&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;ThreadPoolE&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkedTransferQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;Sync&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java&#10;DelayQueue&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;PriorityBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;LinkedBlocking&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ConcurrentLinkedQueue&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentLinkedQueue&#10;SynchronousQueue&#9;PSI&#9;JAVA://java.util.concurrent.SynchronousQueue&#10;BlockingDeque&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;BlockingQueue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java&#10;AbstractQueue&#9;PSI&#9;JAVA://java.util.AbstractQueue&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Concurrent&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java&#10;ConcurrentHas&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
+    <property name="SearchEverywhereHistoryKey" value="java.util.func&#9;PSI&#9;JAVA://java.util.function.Function&#10;typeHa&#9;PSI&#9;JAVA://org.apache.ibatis.type.TypeHandler&#10;MapperProxy&#9;FILE&#9;jar:///Users/qjyd/.m2/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java&#10;SqlSession&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession&#10;StatementHandler&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.StatementHandler&#10;CachingEx&#9;PSI&#9;JAVA://org.apache.ibatis.executor.CachingExecutor&#10;PerpetualCache&#9;PSI&#9;JAVA://org.apache.ibatis.cache.impl.PerpetualCache&#10;objectFactoryElement&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLConfigBuilder#objectFactoryElement&#10;ObjecFa&#9;FILE&#9;jar:///Users/qjyd/.m2/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/internal/ObjectFactory.class&#10;MapperFactoryBean&#9;PSI&#9;JAVA://org.mybatis.spring.mapper.MapperFactoryBean&#10;CachingConnectionFactory&#9;PSI&#9;JAVA://org.springframework.amqp.rabbit.connection.CachingConnectionFactory&#10;rabbit&#9;FILE&#9;file:///Users/qjyd/IdeaProjects/springboot-learning/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml&#10;Exchanger&#9;PSI&#9;JAVA://java.util.concurrent.Exchanger&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;ThreadPoolE&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkedTransferQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;Sync&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java&#10;DelayQueue&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;PriorityBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;LinkedBlocking&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ConcurrentLinkedQueue&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentLinkedQueue&#10;SynchronousQueue&#9;PSI&#9;JAVA://java.util.concurrent.SynchronousQueue&#10;BlockingDeque&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;BlockingQueue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java&#10;AbstractQueue&#9;PSI&#9;JAVA://java.util.AbstractQueue&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Concurrent&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java&#10;ConcurrentHas&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541676309074" />
@@ -489,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Application.WangBa">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -610,6 +584,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mlh.modules.juc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WangBa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mlh.modules.test.WangBa" />
+      <module name="springboot-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mlh.modules.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -833,9 +821,11 @@
       <item itemvalue="Application.FutureTaskDemo" />
       <item itemvalue="JUnit.UserDaoTest.testFirstClassCache" />
       <item itemvalue="JUnit.MybatisCacheTest.testCache1" />
+      <item itemvalue="Application.WangBa" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WangBa" />
         <item itemvalue="JUnit.MybatisCacheTest.testCache1" />
         <item itemvalue="JUnit.UserDaoTest.testFirstClassCache" />
         <item itemvalue="JUnit.UserDaoTest" />
@@ -901,7 +891,13 @@
       <workItem from="1545618324988" duration="4504000" />
       <workItem from="1546918470599" duration="1369000" />
       <workItem from="1547521893596" duration="333000" />
-      <workItem from="1548329044196" duration="1579000" />
+      <workItem from="1548329044196" duration="2337000" />
+      <workItem from="1548641713246" duration="347000" />
+      <workItem from="1548667401994" duration="591000" />
+      <workItem from="1548728331046" duration="1809000" />
+      <workItem from="1548953051628" duration="7000" />
+      <workItem from="1549507742526" duration="301000" />
+      <workItem from="1549851720695" duration="184000" />
     </task>
     <servers />
   </component>
@@ -938,13 +934,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185225000" />
+    <option name="totallyTimeSpent" value="189222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21243942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23182553" />
       <window_info x="460" y="172" width="360" height="455" id="Structure" order="1" weight="0.19169329" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -963,7 +959,7 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.2589041" />
       <window_info anchor="bottom" id="REST Client" order="10" weight="0.3328767" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49676898" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49676898" weight="0.46986303" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32739726" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32876712" />
@@ -1065,48 +1061,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/resultset/PrimitiveTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/resultset/ResultSetHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/mapping/MappedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1406,13 +1360,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="246" selection-start-line="21" selection-start-column="246" selection-end-line="21" selection-end-column="246" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1437,51 +1407,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#269#0" expanded="true" />
-            <element signature="e#341#357#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/AQS.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
+          <first_editor relative-caret-position="-231" />
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+          <folding>
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
