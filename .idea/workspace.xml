@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f454c4f-70b3-4c55-a699-3d39821cc853" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4db1c8c2-2972-4af5-8612-0eab3b77b6cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4db1c8c2-2972-4af5-8612-0eab3b77b6cf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78159219-417f-4e03-8310-d6c0f3f094cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78159219-417f-4e03-8310-d6c0f3f094cf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f60865e0-0a7a-48d6-96f9-1d47ce99581e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f60865e0-0a7a-48d6-96f9-1d47ce99581e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/md/牛客网算法视频.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/aop/DynamicDataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/aop/DynamicDataSourceAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/controller/HttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/controller/HttpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/MybatisCacheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dao/UserDaoTest.class" beforeDir="false" />
     </list>
     <ignored path="springboot-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,18 +50,18 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="9" />
           <entry key="iml" value="1" />
-          <entry key="java" value="32" />
-          <entry key="md" value="9" />
+          <entry key="java" value="50" />
+          <entry key="md" value="14" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
           <entry key="yml" value="3" />
@@ -72,10 +69,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="9" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="32" />
-          <entry key="Markdown" value="9" />
+          <entry key="JAVA" value="50" />
+          <entry key="Markdown" value="14" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="3" />
@@ -83,15 +80,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="373" />
-          <entry key="md" value="71" />
+          <entry key="java" value="1764" />
+          <entry key="md" value="145" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="373" />
-          <entry key="Markdown" value="71" />
+          <entry key="JAVA" value="1764" />
+          <entry key="Markdown" value="145" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -107,22 +104,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="103">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="230">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,44 +161,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="79">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-              <folding>
-                <element signature="e#5937#5938#0" expanded="true" />
-                <element signature="e#5967#5968#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/FunctionalInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -197,13 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/controller/ShopController.java" />
-        <option value="dbtable:/32d327a3/4db1c8c2-2972-4af5-8612-0eab3b77b6cf/mytestdb2.shop" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/datasource/DatabaseContextHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/datasource/DynamicDatabaseType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/common/DataSourceAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/common/DruidConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/common/AppConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/common/MyBatisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/Annotation/DataSourceAnnotation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/datasource/DynamicDataSourceContextHolder.java" />
@@ -248,6 +249,13 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" />
+        <option value="$PROJECT_DIR$/src/test/java/niuke/TreePrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java" />
+        <option value="$PROJECT_DIR$/md/牛客网算法视频.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java" />
       </list>
     </option>
   </component>
@@ -273,8 +281,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -354,17 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-learning" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springboot-learning" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -415,7 +413,54 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mlh" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-learning" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot-learning" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -463,7 +508,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WangBa">
+  <component name="RunManager" selected="JUnit.TreeSerializeTest.preorderTreeDeserialize">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -577,34 +622,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mlh.modules.juc.demo.FutureTaskDemo" />
-      <module name="springboot-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mlh.modules.juc.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WangBa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mlh.modules.test.WangBa" />
-      <module name="springboot-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mlh.modules.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -647,33 +664,82 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
-    <configuration name="MybatisCacheTest.testCache1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreePrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mlh.dao.*" />
+          <option name="PATTERN" value="niuke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mlh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mlh.dao.MybatisCacheTest" />
-      <option name="METHOD_NAME" value="testCache1" />
+      <option name="PACKAGE_NAME" value="niuke" />
+      <option name="MAIN_CLASS_NAME" value="niuke.TreePrinterTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreePrinterTest.testTreePrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="niuke" />
+      <option name="MAIN_CLASS_NAME" value="niuke.TreePrinterTest" />
+      <option name="METHOD_NAME" value="testTreePrinter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeSerializeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mlh.dao.*" />
+          <option name="PATTERN" value="niuke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mlh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mlh.dao.UserDaoTest" />
+      <option name="PACKAGE_NAME" value="niuke" />
+      <option name="MAIN_CLASS_NAME" value="niuke.TreeSerializeTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSerializeTest.preorderTreeDeserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="niuke" />
+      <option name="MAIN_CLASS_NAME" value="niuke.TreeSerializeTest" />
+      <option name="METHOD_NAME" value="preorderTreeDeserialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSerializeTest.testTreeSerialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="niuke" />
+      <option name="MAIN_CLASS_NAME" value="niuke.TreeSerializeTest" />
+      <option name="METHOD_NAME" value="testTreeSerialize" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -690,23 +756,6 @@
       <option name="PACKAGE_NAME" value="com.mlh.dao" />
       <option name="MAIN_CLASS_NAME" value="com.mlh.dao.UserDaoTest" />
       <option name="METHOD_NAME" value="findUserById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest.testFirstClassCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mlh.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mlh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mlh.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="testFirstClassCache" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -817,19 +866,19 @@
       <item itemvalue="JUnit.UserDaoTest.findUserById" />
       <item itemvalue="Maven.generator" />
       <item itemvalue="Spring Boot.App" />
-      <item itemvalue="JUnit.UserDaoTest" />
-      <item itemvalue="Application.FutureTaskDemo" />
-      <item itemvalue="JUnit.UserDaoTest.testFirstClassCache" />
-      <item itemvalue="JUnit.MybatisCacheTest.testCache1" />
-      <item itemvalue="Application.WangBa" />
+      <item itemvalue="JUnit.TreePrinterTest" />
+      <item itemvalue="JUnit.TreePrinterTest.testTreePrinter" />
+      <item itemvalue="JUnit.TreeSerializeTest.testTreeSerialize" />
+      <item itemvalue="JUnit.TreeSerializeTest" />
+      <item itemvalue="JUnit.TreeSerializeTest.preorderTreeDeserialize" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WangBa" />
-        <item itemvalue="JUnit.MybatisCacheTest.testCache1" />
-        <item itemvalue="JUnit.UserDaoTest.testFirstClassCache" />
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="Application.FutureTaskDemo" />
+        <item itemvalue="JUnit.TreeSerializeTest.preorderTreeDeserialize" />
+        <item itemvalue="JUnit.TreeSerializeTest" />
+        <item itemvalue="JUnit.TreeSerializeTest.testTreeSerialize" />
+        <item itemvalue="JUnit.TreePrinterTest.testTreePrinter" />
+        <item itemvalue="JUnit.TreePrinterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -898,49 +947,49 @@
       <workItem from="1548953051628" duration="7000" />
       <workItem from="1549507742526" duration="301000" />
       <workItem from="1549851720695" duration="184000" />
+      <workItem from="1549962175289" duration="11699000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.10.24 at 15h 29m 11s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 34m 32s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.10.24 at 15h 33m 31s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest - 2019.02.13 at 17h 35m 51s.xml">
+      <configuration name="TreeSerializeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.10.24 at 15h 52m 29s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest - 2019.02.13 at 17h 37m 03s.xml">
+      <configuration name="TreeSerializeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.08 at 15h 58m 06s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 38m 11s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.08 at 15h 58m 22s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 38m 20s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.08 at 16h 02m 54s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 38m 21s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.08 at 16h 03m 19s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 39m 34s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.08 at 16h 04m 07s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 43m 43s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.08 at 16h 06m 07s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest - 2019.02.13 at 17h 44m 08s.xml">
+      <configuration name="TreeSerializeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisCacheTest_testCache1 - 2018.11.27 at 17h 34m 54s.xml">
-      <configuration name="MybatisCacheTest.testCache1" configurationId="JUnit" />
+    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 45m 25s.xml">
+      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189222000" />
+    <option name="totallyTimeSpent" value="200921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23182553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30936995" />
       <window_info x="460" y="172" width="360" height="455" id="Structure" order="1" weight="0.19169329" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -951,7 +1000,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41917807" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4041096" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43835616" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43835616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -959,7 +1008,7 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.2589041" />
       <window_info anchor="bottom" id="REST Client" order="10" weight="0.3328767" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49676898" weight="0.46986303" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49676898" weight="0.38767123" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32739726" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32876712" />
@@ -1044,6 +1093,12 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mlh/dao/ShopDao.java</url>
           <line>23</line>
@@ -1055,156 +1110,17 @@
         <breakpoints-dialog />
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="res" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/mapping/MappedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="713" column="34" selection-start-line="713" selection-start-column="16" selection-end-line="713" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.ibatis.type.ArrayTypeHandler">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.ibatis.type.ArrayTypeHandler</OriginalElement>
-          <nodes>
-            <node x="52.0" y="158.0">org.apache.ibatis.type.ArrayTypeHandler</node>
-            <node x="0.0" y="0.0">org.apache.ibatis.type.TypeHandler</node>
-            <node x="131.0" y="0.0">org.apache.ibatis.type.TypeReference</node>
-            <node x="54.5" y="79.0">org.apache.ibatis.type.BaseTypeHandler</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.ibatis.type.ArrayTypeHandler" target="org.apache.ibatis.type.BaseTypeHandler">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.ibatis.type.BaseTypeHandler" target="org.apache.ibatis.type.TypeReference">
-              <point x="34.75" y="-14.5" />
-              <point x="158.75" y="54.0" />
-              <point x="192.5" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.ibatis.type.BaseTypeHandler" target="org.apache.ibatis.type.TypeHandler">
-              <point x="-34.75" y="-14.5" />
-              <point x="89.25" y="54.0" />
-              <point x="55.5" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1" x="-280.0" y="-125.0" />
-          <SelectedNodes>
-            <node>org.apache.ibatis.type.ArrayTypeHandler</node>
-            <node>org.apache.ibatis.type.TypeHandler</node>
-            <node>org.apache.ibatis.type.TypeReference</node>
-            <node>org.apache.ibatis.type.BaseTypeHandler</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/type/TypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/type/ArrayTypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/dao/ShopDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/Annotation/TargetDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-learning.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/core/io/support/PathMatchingResourcePatternResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/HttpClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1216,13 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1286,42 +1195,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/md/mybatis.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-222" />
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/config/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-819">
           <caret line="48" column="46" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md/spring.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md/spring-core.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1343,13 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/model/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1430,6 +1300,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1455,20 +1335,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java">
+    <entry file="file://$PROJECT_DIR$/md/mybatis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/spring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/spring-core.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/springboot2.0整合mybatis实现多数据源切换.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-123" />
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/model/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/牛客网算法视频.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#289#0" expanded="true" />
+            <element signature="e#329#338#0" expanded="true" />
+            <element signature="e#458#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerWithLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
