@@ -1,4 +1,4 @@
-package niuke;
+package  niuke;
 
 import com.mlh.modules.algorithm.niuke.TreeNode;
 import com.mlh.modules.algorithm.niuke.TreeSerialization;

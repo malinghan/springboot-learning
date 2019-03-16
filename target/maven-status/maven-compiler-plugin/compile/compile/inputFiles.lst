@@ -38,6 +38,7 @@
 /Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/modules/juc/demo/LinkedQueue.java
 /Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo.java
 /Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/model/User.java
+/Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/modules/guava/BloomFilterTest.java
 /Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/config/DatabaseType.java
 /Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/Annotation/TargetDataSource.java
 /Users/malinghan/IdeaProjects/springboot-learning/src/main/java/com/mlh/modules/juc/demo/NonbloackingCounter.java

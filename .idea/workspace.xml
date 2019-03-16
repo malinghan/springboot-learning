@@ -1,415 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f454c4f-70b3-4c55-a699-3d39821cc853" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SubList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4db1c8c2-2972-4af5-8612-0eab3b77b6cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4db1c8c2-2972-4af5-8612-0eab3b77b6cf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78159219-417f-4e03-8310-d6c0f3f094cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78159219-417f-4e03-8310-d6c0f3f094cf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f60865e0-0a7a-48d6-96f9-1d47ce99581e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f60865e0-0a7a-48d6-96f9-1d47ce99581e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b5042a09-54d3-44c3-b747-e92f6355e323" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/guava/BloomFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guava/BloomFilterUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springboot-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springboot-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/mybatis.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/mybatis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/spring-core.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/spring-core.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/spring.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/springboot2.0整合mybatis实现多数据源切换.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/springboot2.0整合mybatis实现多数据源切换.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/md/牛客网算法视频.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/牛客网算法视频.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/Annotation/TargetDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/Annotation/TargetDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/config/DataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/config/DatabaseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/config/DatabaseType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSourceContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSourceContextHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/controller/HttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/controller/HttpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/dao/MybatisCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/dao/MybatisCacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/dao/ShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/dao/ShopDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/model/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/model/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/model/UserPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/model/UserPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/Rotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/Rotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerWithLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerWithLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/BirthdayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/BirthdayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ConcurrentStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ConcurrentStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/FutureTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/FutureTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/NonbloackingCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/NonbloackingCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ObjectCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ObjectCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ReorderingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ReorderingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/SimpleExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/SimpleExchanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/TaskQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/TaskQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/AQS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/AQS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/Atomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/Atomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/CountDownlatch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/CountDownlatch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/CyclicBarrier.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/CyclicBarrier.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/lock.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/note2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/note2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/read-now.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/read-now.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/处理 InterruptedException.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/处理 InterruptedException.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/ShortUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/ShortUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/service/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mlh/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mlh/service/impl/ShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/mybatis_generator_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/mybatis_generator_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShopMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/Annotation/TargetDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/aop/DynamicDataSourceAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/config/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/config/DatabaseType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/config/DynamicDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/config/DynamicDataSourceContextHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/controller/HttpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/controller/HttpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/dao/MybatisCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/dao/MybatisCacheTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/dao/ShopDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/model/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/model/UserPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/algorithm/niuke/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/algorithm/niuke/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/algorithm/niuke/TreePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/algorithm/niuke/TreePrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/algorithm/niuke/TreeSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/algorithm/niuke/TreeSerialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo$DemoDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerWithLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerWithLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/AtomicIntegerWithLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/BirthdayService$Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/BirthdayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ConcurrentStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ConcurrentStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/CountDownLatchTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/CountDownLatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/CyclicBarrierDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/CyclicBarrierDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/CyclicBarrierDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/FutureTaskDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/LinkedQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/LinkedQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/NonbloackingCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ObjectCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ObjectCache$ObjectFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ObjectCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ReorderingDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ReorderingDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/ReorderingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/SimpleExchanger$Slot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/SimpleExchanger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/Solver$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/Solver$Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/Solver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/demo/TaskQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/learn/Atomic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/learn/Atomic$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/learn/Atomic$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/learn/Atomic$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/juc/learn/Atomic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/observer/MyObservable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/observer/MyObservable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/AbstractUrlShortener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/AbstractUrlShortener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/ShortUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/ShortUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/UrlShortener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/UrlShortener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/UrlShortenerMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/shorturl/UrlShortenerMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/test/Mypan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/test/Mypan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/modules/test/WangBa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mlh/modules/test/WangBa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/service/ShopService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mlh/service/impl/ShopServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generator/mybatis_generator_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator/mybatis_generator_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AtomicIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AtomicIntegerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/niuke/TreePrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/niuke/TreePrinterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/niuke/TreeSerializeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/niuke/TreeSerializeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-learning-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springboot-learning-0.1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AtomicIntegerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AtomicIntegerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-niuke.TreePrinterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-niuke.TreeSerializeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/niuke.TreePrinterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/niuke.TreeSerializeTest.txt" beforeDir="false" />
     </list>
-    <ignored path="springboot-learning.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2044703207">
+    <session id="-774812239">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.86" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="10" />
-          <entry key="html" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="65" />
-          <entry key="md" value="17" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="4" />
-          <entry key="yml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="HTML" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="65" />
-          <entry key="Markdown" value="17" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="4" />
-          <entry key="YAML" value="4" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1880" />
-          <entry key="md" value="181" />
-          <entry key="xml" value="2" />
+          <entry key="dummy" value="15" />
+          <entry key="info" value="8" />
+          <entry key="java" value="263" />
+          <entry key="xml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1880" />
-          <entry key="Markdown" value="181" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="263" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="27" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-    <session id="-774812239">
-      <usages-collector id="statistics.lifecycle.project">
+      <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="class" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="info" value="1" />
+          <entry key="java" value="6" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSourceContextHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/guava/BloomFilterTest.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/Annotation/TargetDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/guava/BloomFilterUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="96">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="793" column="28" selection-start-line="793" selection-start-column="28" selection-end-line="793" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0.jar!/com/google/common/hash/BloomFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -419,18 +174,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
-        <option value="Kotlin File" />
-        <option value="Kotlin Enum" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mybatis.mapper-locations</find>
-      <find>pack</find>
+      <find>guava</find>
+      <find>jackson</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -439,57 +190,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/datasource/DynamicDataSourceContextHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/service/IShopService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/mapper/ShopMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/service/impl/Shop2ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/common/DynamicDataSourceRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/enum/DatabaseType.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/datasource/DynamicDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/FutureTaskDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/ObjectCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSourceRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/config/AbstractApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/service/ShopService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/Annotation/TargetDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/App.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ShopMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/service/impl/ShopServiceImpl.java" />
-        <option value="$PROJECT_DIR$/md/springboot2.0整合mybatis.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/model/User.java" />
-        <option value="$PROJECT_DIR$/md/mybatis.md" />
-        <option value="$PROJECT_DIR$/md/spring.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/dao/ShopDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/config/DatabaseType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSourceContextHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/dao/MybatisCacheTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/dao/MybatisCacheTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/controller/HttpController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java" />
-        <option value="$PROJECT_DIR$/src/test/java/niuke/TreePrinter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/guava/BloomFilterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/guava/BloomFilter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/package.info" />
+        <option value="$PROJECT_DIR$/src/test/java/package-info.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/niuke/package-info.java" />
+        <option value="$PROJECT_DIR$/src/test/java/guava/BloomFilterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java" />
         <option value="$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/Rotation.java" />
-        <option value="$PROJECT_DIR$/md/牛客网算法视频.md" />
-        <option value="$PROJECT_DIR$/src/test/java/SubList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/guava/TestFilter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/guava/BloomFilterUnitTest.java" />
       </list>
     </option>
   </component>
@@ -499,97 +211,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="$USER_HOME$/Programs/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Encapsulation issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>SetupSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring AOPSpring</id>
-          </State>
-          <State>
-            <id>Spring BatchSpring</id>
-          </State>
-          <State>
-            <id>Spring BootSpring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring DataSpring</id>
-          </State>
-          <State>
-            <id>Spring IntegrationSpring</id>
-          </State>
-          <State>
-            <id>Spring MVCSpring</id>
-          </State>
-          <State>
-            <id>Spring OSGiSpring</id>
-          </State>
-          <State>
-            <id>Spring SecuritySpring</id>
-          </State>
-          <State>
-            <id>Spring Web FlowSpring</id>
-          </State>
-          <State>
-            <id>Spring Web ServicesSpring</id>
-          </State>
-          <State>
-            <id>Spring WebSocketSpring</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpringJavaAutowiringInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -597,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -607,51 +233,36 @@
             <path>
               <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mlh" type="462c0819:PsiDirectoryNode" />
+              <item name="guava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mlh" type="462c0819:PsiDirectoryNode" />
-              <item name="Annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mlh" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -668,33 +279,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="java.util.func&#9;PSI&#9;JAVA://java.util.function.Function&#10;typeHa&#9;PSI&#9;JAVA://org.apache.ibatis.type.TypeHandler&#10;MapperProxy&#9;FILE&#9;jar:///Users/qjyd/.m2/repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java&#10;SqlSession&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession&#10;StatementHandler&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.StatementHandler&#10;CachingEx&#9;PSI&#9;JAVA://org.apache.ibatis.executor.CachingExecutor&#10;PerpetualCache&#9;PSI&#9;JAVA://org.apache.ibatis.cache.impl.PerpetualCache&#10;objectFactoryElement&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLConfigBuilder#objectFactoryElement&#10;ObjecFa&#9;FILE&#9;jar:///Users/qjyd/.m2/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/internal/ObjectFactory.class&#10;MapperFactoryBean&#9;PSI&#9;JAVA://org.mybatis.spring.mapper.MapperFactoryBean&#10;CachingConnectionFactory&#9;PSI&#9;JAVA://org.springframework.amqp.rabbit.connection.CachingConnectionFactory&#10;rabbit&#9;FILE&#9;file:///Users/qjyd/IdeaProjects/springboot-learning/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml&#10;Exchanger&#9;PSI&#9;JAVA://java.util.concurrent.Exchanger&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;FutureTask&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;ThreadPoolE&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkedTransferQueue&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;Sync&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java&#10;DelayQueue&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;PriorityBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;LinkedBlocking&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;ConcurrentLinkedQueue&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentLinkedQueue&#10;SynchronousQueue&#9;PSI&#9;JAVA://java.util.concurrent.SynchronousQueue&#10;BlockingDeque&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;BlockingQueue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java&#10;AbstractQueue&#9;PSI&#9;JAVA://java.util.AbstractQueue&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Concurrent&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java&#10;ConcurrentHas&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541676309074" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552731091737" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.mlh" />
-      <recent name="com.mlh.dao" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="dao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/niuke" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -709,190 +304,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TreePrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements">
+    <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niuke.*" />
+          <option name="PATTERN" value="guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="niuke" />
-      <option name="MAIN_CLASS_NAME" value="niuke.TreePrinterTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreePrinterTest.testTreePrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="niuke" />
-      <option name="MAIN_CLASS_NAME" value="niuke.TreePrinterTest" />
-      <option name="METHOD_NAME" value="testTreePrinter" />
+      <option name="PACKAGE_NAME" value="guava" />
+      <option name="MAIN_CLASS_NAME" value="guava.BloomFilterUnitTest" />
+      <option name="METHOD_NAME" value="givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guava" />
+      <option name="MAIN_CLASS_NAME" value="guava.BloomFilterUnitTest" />
+      <option name="METHOD_NAME" value="givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -901,198 +341,43 @@
       <module name="springboot-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niuke.*" />
+          <option name="PATTERN" value="com.mlh.test.niuke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="niuke" />
-      <option name="MAIN_CLASS_NAME" value="niuke.TreeSerializeTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.mlh.test.niuke.TreeSerializeTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="TreeSerializeTest.preorderTreeDeserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="niuke" />
-      <option name="MAIN_CLASS_NAME" value="niuke.TreeSerializeTest" />
-      <option name="METHOD_NAME" value="preorderTreeDeserialize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSerializeTest.testTreeSerialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="niuke" />
-      <option name="MAIN_CLASS_NAME" value="niuke.TreeSerializeTest" />
-      <option name="METHOD_NAME" value="testTreeSerialize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest.findUserById" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="springboot-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mlh.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mlh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mlh.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="findUserById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-                <option value="-e" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-learning" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mlh.App" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserDaoTest.findUserById" />
-      <item itemvalue="Maven.generator" />
       <item itemvalue="Spring Boot.App" />
-      <item itemvalue="JUnit.TreePrinterTest" />
-      <item itemvalue="JUnit.TreePrinterTest.testTreePrinter" />
-      <item itemvalue="JUnit.TreeSerializeTest.testTreeSerialize" />
       <item itemvalue="JUnit.TreeSerializeTest" />
-      <item itemvalue="JUnit.TreeSerializeTest.preorderTreeDeserialize" />
+      <item itemvalue="JUnit.BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive" />
+      <item itemvalue="JUnit.BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeSerializeTest.preorderTreeDeserialize" />
+        <item itemvalue="JUnit.BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" />
+        <item itemvalue="JUnit.BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive" />
         <item itemvalue="JUnit.TreeSerializeTest" />
-        <item itemvalue="JUnit.TreeSerializeTest.testTreeSerialize" />
-        <item itemvalue="JUnit.TreePrinterTest.testTreePrinter" />
-        <item itemvalue="JUnit.TreePrinterTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES,ALPHA_COMPARATOR,VISIBILITY_SORTER,SHOW_ANONYMOUS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f454c4f-70b3-4c55-a699-3d39821cc853" name="Default" comment="" />
+      <changelist id="b5042a09-54d3-44c3-b747-e92f6355e323" name="Default Changelist" comment="" />
       <created>1533036990434</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -1160,48 +445,39 @@
       <workItem from="1552532942015" duration="593000" />
       <workItem from="1552567762606" duration="550000" />
       <workItem from="1552708088671" duration="877000" />
+      <workItem from="1552726151813" duration="122000" />
+      <workItem from="1552726278574" duration="2113000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeSerializeTest - 2019.02.13 at 17h 37m 03s.xml">
-      <configuration name="TreeSerializeTest" configurationId="JUnit" />
+    <history-entry file="BloomFilterUnitTest_givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive - 2019.03.16 at 18h 05m 17s.xml">
+      <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 38m 11s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
+    <history-entry file="BloomFilterUnitTest_givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive - 2019.03.16 at 18h 06m 53s.xml">
+      <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToIt_thenShouldNotReturnAnyFalsePositive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 38m 20s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
+    <history-entry file="BloomFilterUnitTest_givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements - 2019.03.16 at 18h 09m 00s.xml">
+      <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 38m 21s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
+    <history-entry file="BloomFilterUnitTest_givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements - 2019.03.16 at 18h 09m 06s.xml">
+      <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 39m 34s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
+    <history-entry file="BloomFilterUnitTest_givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements - 2019.03.16 at 18h 09m 20s.xml">
+      <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 43m 43s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeSerializeTest - 2019.02.13 at 17h 44m 08s.xml">
-      <configuration name="TreeSerializeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.13 at 17h 45m 25s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeSerializeTest - 2019.02.14 at 10h 33m 36s.xml">
-      <configuration name="TreeSerializeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeSerializeTest_preorderTreeDeserialize - 2019.02.14 at 10h 33m 54s.xml">
-      <configuration name="TreeSerializeTest.preorderTreeDeserialize" configurationId="JUnit" />
+    <history-entry file="BloomFilterUnitTest_givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements - 2019.03.16 at 18h 10m 47s.xml">
+      <configuration name="BloomFilterUnitTest.givenBloomFilter_whenAddNStringsToItMoreThanDefinedExpectedInsertions_thenItWillReturnTrueForAlmostAllElements" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216176000" />
+    <option name="totallyTimeSpent" value="2118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info x="460" y="172" width="360" height="455" id="Structure" order="1" weight="0.2003231" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1209,22 +485,23 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32968536" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.41917807" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4041096" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41860464" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.40355676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43835616" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.503231" side_tool="true" weight="0.2260274" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50429183" side_tool="true" weight="0.46648428" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.2589041" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.25854993" />
       <window_info anchor="bottom" id="REST Client" order="10" weight="0.3328767" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49676898" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49570817" weight="0.2995896" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32739726" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32876712" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.32953367" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.45964432" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1273,14 +550,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1322,377 +591,126 @@
       </configuration>
     </watches-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/dao/MybatisCacheTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/Annotation/TargetDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/mybatis_generator_config.properties">
+    <entry file="file://$PROJECT_DIR$/.idea/springboot-learning.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/read.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/com/google/common/hash/BloomFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="26">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/model/UserPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortenerMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/UrlShortener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/ShortUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/shorturl/AbstractUrlShortener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/learn/AQS.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/aop/DynamicDataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/test/WangBa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Observable.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/function/Function.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/FunctionalInterface.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/observer/MyObservable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md/mybatis.md" />
-    <entry file="file://$PROJECT_DIR$/md/spring.md" />
-    <entry file="file://$PROJECT_DIR$/md/spring-core.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/model/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerFieldUpdaterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerWithLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/juc/demo/AtomicIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/config/DynamicDataSourceContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/TreeSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.jar!/org/assertj/core/internal/Lists.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/algorithm/niuke/Rotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md/springboot2.0整合mybatis实现多数据源切换.md" />
-    <entry file="file://$PROJECT_DIR$/md/牛客网算法视频.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/controller/HttpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="156" column="43" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="43" />
+        <state relative-caret-position="-252">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SubList.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="235">
+          <caret line="793" column="28" selection-start-line="793" selection-start-column="28" selection-end-line="793" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/modules/guava/BloomFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AtomicIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreePrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mlh/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/niuke/TreeSerializeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/22.0/guava-22.0.jar!/com/google/common/hash/BloomFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/guava/BloomFilterUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|springboot-learning</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44367817" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
   </component>
 </project>

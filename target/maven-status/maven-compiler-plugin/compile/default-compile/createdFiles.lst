@@ -43,6 +43,7 @@ com/mlh/modules/juc/demo/BirthdayService$Worker.class
 com/mlh/modules/juc/demo/FutureTaskDemo.class
 com/mlh/modules/test/Mypan.class
 com/mlh/dao/UserDao.class
+com/mlh/modules/guava/BloomFilterTest.class
 com/mlh/aop/DynamicDataSourceAspect.class
 com/mlh/modules/juc/demo/Solver$1.class
 com/mlh/config/DynamicDataSourceContextHolder.class
