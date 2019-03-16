@@ -1,0 +1,122 @@
+server:
+   port: 8080
+
+spring:
+    application:
+        name: SpringBoot
+    # master(jdbcurl)数据源使用 Hikari连接池，slave(url)使用的是druid作为数据库连接池,数据库的连接不一样
+    datasource:
+        name: mysql_test
+        #-------------- start ----------------# (1)
+        master:
+           #基本属性--注意，这里的为【jdbcurl】-- 默认使用HikariPool作为数据库连接池
+          jdbcUrl: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf8
+          username: root
+          password: asdf1234
+          driver-class-name: com.mysql.jdbc.Driver
+          #基本属性--注意，这里的为【jdbcurl】-- 默认使用HikariPool作为数据库连接池
+#          jdbcUrl: jdbc:mysql://localhost:3306/mytestdb?useUnicode=true&characterEncoding=utf8
+#          username: root
+#          password: asdf1234
+#          driver-class-name: com.mysql.jdbc.Driver
+        slave:
+          #基本属性--注意，这里为 【url】-- 使用 druid 作为数据库连接池
+          url: jdbc:mysql://localhost:3306/mytestdb2?useUnicode=true&characterEncoding=utf8
+          username: root
+          password: asdf1234
+          driver-class-name: com.mysql.jdbc.Driver
+#        read: get,select,count,list,query,find
+#        write: add,create,update,delete,remove,insert
+        #-------------- end ----------------#
+        #druid相关配置
+        druid:
+          #监控统计拦截的filters
+          filters: stat,wall
+          #配置初始化大小/最小/最大
+          initial-size: 1
+          min-idle: 1
+          max-active: 20
+          #获取连接等待超时时间
+          max-wait: 60000
+          #间隔多久进行一次检测，检测需要关闭的空闲连接
+          time-between-eviction-runs-millis: 60000
+          #一个连接在池中最小生存的时间
+          min-evictable-idle-time-millis: 300000
+          validation-query: SELECT 'x'
+          test-while-idle: true
+          test-on-borrow: false
+          test-on-return: false
+          #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
+          pool-prepared-statements: false
+          max-pool-prepared-statement-per-connection-size: 20
+
+#    datasource:
+#        name: mysql_test
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        #druid相关配置
+#        druid:
+#          #监控统计拦截的filters
+#          filters: stat
+#          driver-class-name: com.mysql.jdbc.Driver
+#          #基本属性
+#          url: jdbc:mysql://127.0.0.1:3306/mytest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+#          username: root
+#          password: root
+#          #配置初始化大小/最小/最大
+#          initial-size: 1
+#          min-idle: 1
+#          max-active: 20
+#          #获取连接等待超时时间
+#          max-wait: 60000
+#          #间隔多久进行一次检测，检测需要关闭的空闲连接
+#          time-between-eviction-runs-millis: 60000
+#          #一个连接在池中最小生存的时间
+#          min-evictable-idle-time-millis: 300000
+#          validation-query: SELECT 'x'
+#          test-while-idle: true
+#          test-on-borrow: false
+#          test-on-return: false
+#          #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
+#          pool-prepared-statements: false
+#          max-pool-prepared-statement-per-connection-size: 20
+
+
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml # 实体放置目录
+  type-aliases-package: com.mlh.model
+  type-handlers-package: org.mybatis.example
+  configuration:
+    cache-enabled: true
+    default-enum-type-handler: org.apache.ibatis.type.IntegerTypeHandler
+    return-instance-for-empty-row: true
+    use-column-label: true
+    lazy-loading-enabled: true
+    multiple-result-sets-enabled: true
+    use-generated-keys: false
+    auto-mapping-behavior: PARTIAL
+    auto-mapping-unknown-column-behavior: WARNING
+    default-executor-type: simple
+    default-statement-timeout: 25
+    default-fetch-size: 100
+    safe-row-bounds-enabled: false
+    local-cache-scope: session
+    jdbc-type-for-null: OTHER
+    lazy-load-trigger-methods: equals,clone,hashCode,toString
+    map-underscore-to-camel-case: false
+
+
+#rabbitmq:
+#    username: aaa
+#    password: bbb
+#    host: 192.168.0.133
+#    port: 5672
+
+#pagehelper:
+#    helperDialect: mysql
+#    params: count=countSql
+
+
+
+
