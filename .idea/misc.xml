@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
-=======
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -13,6 +9,5 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
->>>>>>> 2deb7bf68fc141b09dca6d619ab8468281d8ff5d
   </component>
 </project>
