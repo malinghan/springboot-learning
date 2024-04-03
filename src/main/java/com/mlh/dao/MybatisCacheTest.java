@@ -1,11 +1,7 @@
 package com.mlh.dao;
 
-import com.mlh.App;
-import com.mlh.config.DataSourceConfig;
 import com.mlh.config.DynamicDataSource;
-import com.mlh.dao.UserDao;
 import org.apache.catalina.User;
-import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.mapping.Environment;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.SqlSession;
@@ -17,12 +13,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.sql.DataSource;
-import java.io.InputStream;
 
 /**
  * @author: linghan.ma

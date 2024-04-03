@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="MySQL - saas@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
     <root id="1"/>
-    <schema id="2" parent="1" name="saas">
-      <Visible>1</Visible>
-    </schema>
+    <schema id="2" parent="1" name="saas"/>
     <schema id="3" parent="1" name="information_schema"/>
     <schema id="4" parent="1" name="mysql"/>
     <schema id="5" parent="1" name="mytest"/>
@@ -15,16 +13,16 @@
     <schema id="10" parent="1" name="mytestdb2"/>
     <table id="11" parent="2" name="user"/>
     <column id="12" parent="11" name="id">
-      <DataType>int(11) unsigned|0s</DataType>
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int(11) unsigned|0s</DasType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="13" parent="11" name="name">
-      <DataType>varchar(100)|0s</DataType>
+      <DasType>varchar(100)|0s</DasType>
     </column>
     <key id="14" parent="11" name="PRIMARY">
-      <ColNames>id</ColNames>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
     </key>
   </database-model>
 </dataSource>
